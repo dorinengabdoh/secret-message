@@ -30,7 +30,7 @@
 .card {
   min-width: 490px;
   max-width: 768px;
-  background-color: #6cd610;
+  background-color: #080a07;
   border-radius: 10px;
   padding: 20px 5px;
   justify-content: center;
@@ -48,11 +48,16 @@
 }
 
 .input {
-  width: 60%;
+  width: 90%;
   border: solid 2px #000;
-  padding: 10px 0;
+  padding: 7px 0;
   font-size: larger;
   border-radius: 5px;
+}
+
+span {
+  padding-left: 60px;
+  font-size: 20px;
 }
 
 .input:focus {
@@ -78,9 +83,9 @@
 
 .output {
   margin: 0 auto;
-  padding: 18px;
+  padding: 18px 15px;
   border: 1px solid #7b5a5a;
-  width: 50%;
+  width: 60%;
   border-radius: 5px;
   color: #060606;
 }
